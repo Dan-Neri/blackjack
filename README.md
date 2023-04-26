@@ -1,3 +1,3 @@
 # blackjack
-A blackjack simulator written in Python
+A blackjack simulator written in Python.
 The intention of this project is to create a simulator which can be used to test out different betting strategies. The simulator allows a user to create a betting strategy and then run through a specified number of hands playing both the dealer's and player's hands according to basic blackjack strategy. It will then provide statistics such as number of hands won/lost, money won/lost and longest streak of hands won/lost in a row. I've also decided to include a version of the simulator which can be played through hand by hand as an interactive game where the user decides how to play each hand.
