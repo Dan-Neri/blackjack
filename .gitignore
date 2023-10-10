@@ -1,8 +1,9 @@
 # ignore __pycache__ folder
 __pycache__/
 
-# ignore all web version files until ready to start on this portion
+# ignore unused files
 *.html
 *.js
 *.css
 Images/
+old/

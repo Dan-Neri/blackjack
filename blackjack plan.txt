@@ -1,0 +1,21 @@
+Class Deck
+    attributes: list cards
+    methods: shuffle, deal_card, __str__
+    
+Class Shoe inherits from Deck
+    attributes: int number_of_decks, list cards, int cutCard
+    methods: shuffle, __str__
+    
+class Hand
+    attributes: list cards, int total, boolean bust, boolean blackjack, 
+                boolean soft
+    methods: hit, stand, double, split, __str__
+    
+class Player
+    attributes: string name, int bank, int bet, list hands, strategy
+    methods: setBank, setBet, setStrategy, __str__
+    
+class Blackjack
+    attributes: shoe, players, minBet, dealer
+    methods: calculate_winners, play_round, add_player, remove_player,
+                simulate_rounds, __str__
